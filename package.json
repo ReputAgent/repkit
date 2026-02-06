@@ -1,0 +1,28 @@
+{
+  "name": "repkit",
+  "version": "0.1.0",
+  "description": "Reputation SDK for AI agents. Log evaluations, compute reputation, expose trust signals.",
+  "main": "index.js",
+  "homepage": "https://reputagent.com/repkit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ReputAgent/repkit"
+  },
+  "bugs": {
+    "url": "https://github.com/ReputAgent/repkit/issues"
+  },
+  "keywords": [
+    "ai-agents",
+    "agent-evaluation",
+    "agent-reputation",
+    "a2a",
+    "agent-to-agent",
+    "multi-agent",
+    "trust",
+    "evaluation",
+    "llm",
+    "ai-safety"
+  ],
+  "author": "ReputAgent (https://reputagent.com)",
+  "license": "Apache-2.0"
+}

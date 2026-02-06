@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "repkit"
+version = "0.1.0"
+description = "Reputation SDK for AI agents. Log evaluations, compute reputation, expose trust signals."
+readme = "README.md"
+license = {text = "Apache-2.0"}
+requires-python = ">=3.9"
+authors = [
+    {name = "ReputAgent", email = "hello@reputagent.com"},
+]
+keywords = [
+    "ai-agents",
+    "agent-evaluation",
+    "agent-reputation",
+    "a2a",
+    "agent-to-agent",
+    "multi-agent",
+    "trust",
+    "evaluation",
+    "llm",
+    "ai-safety",
+]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries",
+]
+
+[project.urls]
+Homepage = "https://reputagent.com/repkit"
+Documentation = "https://reputagent.com/repkit"
+Repository = "https://github.com/ReputAgent/repkit"
+"Bug Tracker" = "https://github.com/ReputAgent/repkit/issues"
+"About ReputAgent" = "https://reputagent.com/about"
+"Evaluation Patterns" = "https://reputagent.com/patterns"
+"Failure Modes" = "https://reputagent.com/failures"
